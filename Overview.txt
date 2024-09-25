@@ -1,0 +1,32 @@
+POTATO Take-Home Task Overview: POTATO (the Panel-based Open Term-level Aggregate Twitter Observatory) is a prototype website that uses data from the Lazer Lab’s Twitter Panel. The Twitter Panel links over one million real U.S. voters to their Twitter accounts, and has each panelist’s tweets from about 2016 until 2023 or so. POTATO will allow users to search for a term (“COVID”) and get aggregate information about the people who tweeted about the term. 
+
+
+Part 1: Ingesting the data
+
+To ingest the data, I will use the pandas library in Python to read the TSV files. Since the files are relatively large, I will use the dask library to parallelize the reading process and make it more efficient.
+
+Part 2: Constructing Functionality to Query the Data
+
+To construct functionality to query the data, I created a Python class called POTATO with a query_term method.
+
+Part 3: Explaining How to Use the System
+
+To use the system, follow these steps:
+
+Clone the Github repository containing the code.
+Install the required dependencies using pip install -r requirements.txt.
+Run the ingest_data.py script to ingest the data into a pandas dataframe.
+Create an instance of the POTATO class, passing in the ingested dataframe as an argument.
+Call the query_term method on the POTATO instance, passing in the term you want to query (e.g. "music").
+
+Bells and Whistles
+
+I will also include the following bells and whistles in the system:
+
+Usage of Docker: I will create a Dockerfile to containerize the system, making it easy to deploy and run.
+Usage of a NoSQL database: I will use MongoDB as a NoSQL database to store the ingested data, allowing for fast querying and scalability.
+Construction of an API: I will create a Flask API to expose the query_term method, allowing users to query the data programmatically.
+Queries that return results quickly: I will optimize the queries to return results quickly by using efficient data structures and algorithms.
+Thorough documentation: I will include thorough documentation for the system, including code comments and a README file.
+Well-commented code: I will ensure that the code is well-commented and easy to understand.
+Tests: I will write unit tests using pytest to ensure that the system is working correctly.
