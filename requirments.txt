@@ -1,0 +1,5 @@
+pandas
+dask
+You can create a new file called requirements.txt in the same directory as the ingest_data.py and potato.py files, and add the above lines to it.
+
+pip install pandas dask
