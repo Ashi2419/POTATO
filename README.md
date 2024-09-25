@@ -1,1 +1,1 @@
-# POTATO
+# POTATO Take-Home Task Overview: POTATO (the Panel-based Open Term-level Aggregate Twitter Observatory) is a prototype website that uses data from the Lazer Lab’s Twitter Panel. The Twitter Panel links over one million real U.S. voters to their Twitter accounts, and has each panelist’s tweets from about 2016 until 2023 or so. POTATO will allow users to search for a term (“COVID”) and get aggregate information about the people who tweeted about the term.
